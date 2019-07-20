@@ -1,0 +1,18 @@
+<view class="image_viwe_size">
+<image src="{{image_src}}" style="width: 200px; height: 180px;"></image>
+</view>
+<view class='button_viwe_size'>
+  <button class="button_size"  bindtap="UploadImage">上传照片</button>
+</view>
+<view class='progress_view_size'>
+  <progress percent="{{progress}}" show-info />
+</view>
+<view class='text_viwe_size'>
+  <text class="text_size">性别：{{gender}}</text>
+  </view>
+ <view class='text_viwe_size'>
+  <text class="text_size">年龄：{{age}}</text>
+ </view> 
+ <view class='text_viwe_size'>
+  <text class="text_size">颜值：{{beauty}}</text>
+</view>

@@ -1,0 +1,18 @@
+<!--pages/PKing/PKing.wxml-->
+<view class="image_viwe_size">
+<image src="{{image_src}}" style="width: 160px; height: 140px;"></image>
+<image src2="{{image_src}}" style="width: 10px; height: 140px;"></image>
+<image src="{{image_src1}}" style="width: 160px; height: 140px;"></image>
+</view>
+<view class='text_viwe_size'>
+  <text class="text_size">性别：{{gender}}</text>
+  </view>
+ <view class='text_viwe_size'>
+  <text class="text_size">年龄：{{age}}{{compare1}}{{age1}}</text>
+ </view> 
+ <view class='text_viwe_size'>
+  <text class="text_size">颜值：{{beauty}}{{compare2}}{{beauty1}}</text>
+</view>
+<view class='button_viwe_size'>
+  <button class="button_size" open-type="share" bindtap="setPlain">快去告诉小伙伴</button>
+</view>

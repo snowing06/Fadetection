@@ -1,0 +1,39 @@
+
+.image_viwe_size{
+  display:flex;
+ justify-content: center;
+ background: rgb(253, 253, 253);
+  /* padding-bottom: 20px;
+  padding-top: 60px; */
+}
+.image_size{
+  width: 300px;
+}
+.button_viwe_size{
+  display:flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ 
+}
+.button_size{
+  height:50px;
+  width: 200px;
+background-color: rgb(220, 234, 245);
+}
+.text_viwe_size{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.text_size{
+  display:flex;
+  color: #444444;
+}
+.progress_view_size{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/* .button_size::after{
+  border: 0;
+} */
