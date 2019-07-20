@@ -12,7 +12,7 @@ const Credential = tencentcloud.common.Credential;
 const ClientProfile = tencentcloud.common.ClientProfile;
 const HttpProfile = tencentcloud.common.HttpProfile;
 
-let cred = new Credential("AKIDqSyjcIk060f4JJfZswlLgGZ4PWQ4JzJR", "2oNq68vdLAo56pJgpiLhu8Un2LPFzxHM");
+let cred = new Credential("A*******zJR", "2o*****xHM");//自己云环境的id和密钥
 let httpProfile = new HttpProfile();
 httpProfile.endpoint = "iai.tencentcloudapi.com";
   let clientProfile = new ClientProfile();
